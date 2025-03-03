@@ -11,5 +11,11 @@ public class HomeController {
 	{
 		return "working";
 	}
+
+	@GetMapping("/testApi1")
+	public String offtest()
+	{
+		return "working off";
+	}
 	
 }
